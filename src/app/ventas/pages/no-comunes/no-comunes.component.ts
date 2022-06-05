@@ -43,4 +43,27 @@ export class NoComunesComponent {
       this.clientes.pop();
     }
   }
+
+  // KeyValue Pipe
+  persona = {
+    nombre: 'Christian',
+    edad: 40,
+    direccion: 'Quito, Ecuador'
+  }
+
+  // JsonPipe
+  heroes = [
+    {
+      nombre: 'Superman',
+      vuela: true,
+    },
+    {
+      nombre: 'Robin',
+      vuela: false,
+    },
+    {
+      nombre: 'Aquaman',
+      vuela: false,
+    }
+  ];
 }
