@@ -18,4 +18,12 @@
                 {{ ventasNetas | number:'1.2-2':'en' }}
         </p-card>
     </div>
+
+    <div class="col-4">
+        <p-card header="Ventas Brutas"
+                subheader="del presente año">
+            {{ ventasNetas + 2000000 | currency:'CAD':'symbol-narrow':'1.4-4' }}
+        </p-card>
+    </div>
+
 </div>
