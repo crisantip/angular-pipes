@@ -1,6 +1,11 @@
 <div class="text-layout">
     <h1>Pipes personalizados</h1>
     <p>
-        Pipes creados por {{'nosotros' | mayusculas}}
+        Pipes creados por {{'nosotros' | mayusculas:enMayusculas}}
     </p>
+    <button pButton 
+            label="Toggle mayusculas"
+            (click)="toggleCase()"
+            icon="pi pi-users"
+            class="p-button-warning"></button>
 </div>
